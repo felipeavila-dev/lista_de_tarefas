@@ -1,25 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import { GlobalStyle } from './App.styled';
+import { Login } from './pages/Login';
+import { Tasks } from './pages/Tasks';
+import { ContextProvider } from './contexts/Context';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ContextProvider>
+      <React.Fragment>
+        <GlobalStyle />
+        <Routes>
+          <Route path="/tasks" element={<Tasks />} /> 
+          <Route path="/" element={<Login />} />
+        </Routes>
+      </React.Fragment>
+    </ContextProvider>
   );
 }
 
