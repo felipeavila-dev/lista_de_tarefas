@@ -1,46 +1,38 @@
-# Getting Started with Create React App
+# Descrição do projeto:
+Esta lista de tarefas foi desenvolvida com propósito de exercitar o uso do Context API e do Typescript. Foi criada no método mobile first, portanto esta responsiva para dispositivos móveis.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tecnologias utilizadas:
 
-## Available Scripts
+- <b> React Js</b> 
+- <b> Context API </b>
+- <b> Styled Components </b>
+- <b> uuid v4 </b> [Link da biblioteca](https://www.npmjs.com/package/uuidv4)
 
-In the project directory, you can run:
+![lista_de_tarefas](https://user-images.githubusercontent.com/26674677/172072702-1c4b32b7-7fa6-4dde-9dca-b7819e4e995c.gif)
 
-### `npm start`
+## Para clonar o projeto:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+SSH: `git@github.com:felipeavila-dev/lista_de_tarefas.git`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+or
 
-### `npm test`
+HTTPS: `https://github.com/felipeavila-dev/lista_de_tarefas.git`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+--------------------------
 
-### `npm run build`
+## Para instalar as dependências:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Vá para a pasta do projeto e execute `npm install`.
+O comando irá instalar todas dependências necessárias para que o projeto funcione perfeitamente.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Para rodar o projeto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Execute: `npm start`
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Abra [http://localhost:3000](http://localhost:3000) em seu navegador.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
